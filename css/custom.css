@@ -34,3 +34,20 @@
 .acc_details_block .footer-banner b{
   color: #FAFAFA;
 }
+
+.lt{
+	float:left;
+}
+
+.rt{
+	float:right;
+}
+
+.floatfix:after{
+	clear:both;
+	content:".";
+	display:block;
+	height:0px;
+	visibilty:hidden;
+	font-size: 0px;
+}
