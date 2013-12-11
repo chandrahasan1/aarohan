@@ -110,7 +110,7 @@
 				
 				if( !config.thumbsNav ) {
 					var somemargin = 30;
-					$itemText.fadeIn(500).css( 'height', config.elH - $itemHeadline.outerHeight( true ) - somemargin ).jScrollPane('destroy').jScrollPane({
+					$itemText && $itemText.fadeIn(500).css( 'height', config.elH - $itemHeadline.outerHeight( true ) - somemargin ).jScrollPane('destroy').jScrollPane({
 						verticalDragMinHeight: 40,
 						verticalDragMaxHeight: 40
 					}).bind('scroll.crotator', function(e) {
@@ -191,7 +191,8 @@
 						// if true the thumbs will be show initially
 						openThumbs			: true,
 						// speed that the thumbs are shown / hidden
-						toggleThumbsSpeed	: 300
+						toggleThumbsSpeed	: 300,
+						is_content			: false
 					};
 					
 					return this.each(function() {
