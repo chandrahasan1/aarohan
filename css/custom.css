@@ -53,7 +53,7 @@
 }
 
 .navbar-brand{
-  background-image:url("../images/aarohan_64x64.png");
+  /*background-image:url("../images/aarohan_64x64.png");*/
   background-position: 2px 6px;
   background-repeat: no-repeat;
   background-size: 40px 40px;
