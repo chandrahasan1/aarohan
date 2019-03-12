@@ -1,395 +1,301 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Aarohan</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Loading Bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Loading Flat UI -->
-    <link rel="stylesheet" type="text/css" href="css/flat-ui.css" />
-    <link rel="stylesheet" type="text/css" href="css/custom.css" />
-    <link rel="stylesheet" type="text/css" href="css/imageplugin.css" />
-		<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all" />
-
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-    <![endif]-->
-  </head>
-  <body data-spy="scroll" data-target="navbarExample" data-offset="0">
-    <div class="navbar navbar-inverse navbar-fixed-top"  role="navigation"> 
-        <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-01">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">AAROHAN</a>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Wed Feb 06 2019 08:29:26 GMT+0000 (UTC)  -->
+<html data-wf-page="5c52cb5a984fb04c1cfbfd34" data-wf-site="5c52cb5a984fb029fafbfd33">
+<head>
+  <meta charset="utf-8">
+  <title>Aarohan Initiative - Community Learning Centre</title>
+  <meta content="Aarohan is a place where people of a community can come together to plan, develop and participate in activities that are local, friendly, welcoming, non-judgmental, and most importantly engaging and educative for everyone involved." name="description">
+  <meta content="Aarohan Initiative - Community Learning Centre" property="og:title">
+  <meta content="Aarohan is a place where people of a community can come together to plan, develop and participate in activities that are local, friendly, welcoming, non-judgmental, and most importantly engaging and educative for everyone involved." property="og:description">
+  <meta content="summary" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/aarohan.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Playfair Display:regular,700,900","Roboto:regular,700"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/32.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/256.png" rel="apple-touch-icon">
+</head>
+<body class="body">
+  <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
+    <div class="nav-container w-container">
+      <a href="#home" class="brand w-nav-brand">
+        <h1 class="logo">Aarohan</h1>
+      </a>
+      <nav role="navigation" class="nav-menu w-nav-menu"><a href="#about" class="nav-link w-nav-link">About</a><a href="#mentors" class="nav-link w-nav-link">Mentors</a><a href="#partners" class="nav-link w-nav-link">Partners</a><a href="#supporters" class="nav-link w-nav-link">supporters</a><a href="#donate" class="nav-link w-nav-link">Donate</a><a href="#join" class="nav-link w-nav-link">Join Us</a></nav>
+      <div class="menu-button w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div id="home" class="top-section">
+    <div class="container">
+      <div class="hero-div">
+        <div class="hero-content">
+          <h1 class="hero-heading"><strong class="bold-text">A community learning center</strong></h1>
+          <div class="hero-body">Aarohan is a place where people of a community can come together to plan, develop and participate in activities that are local, friendly, welcoming, non-judgmental, and most importantly engaging and educative for everyone involved.</div>
+        </div>
+        <div class="hero-image">
+          <div data-delay="2000" data-animation="slide" data-autoplay="1" data-duration="500" data-infinite="1" class="slider w-slider">
+            <div class="w-slider-mask">
+              <div class="slide w-slide"></div>
+              <div class="slide-2 w-slide"></div>
+              <div class="slide-3 w-slide"></div>
+              <div class="slide-4 w-slide"></div>
+              <div class="slide-5 w-slide"></div>
+              <div class="slide-6 w-slide"></div>
+              <div class="slide-7 w-slide"></div>
+              <div class="slide-8 w-slide"></div>
+              <div class="slide-9 w-slide"></div>
+              <div class="slide-1 w-slide"></div>
             </div>
-            <div class="navbar-collapse collapse navbar-collapse-01" id="navbarExample">
-              <ul class="nav navbar-nav navbar-right">
-<!-- 
-                <li>
-                  <a href="#aboutus" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
-                  <ul class="">
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#mentors">Mentors</a></li>
-                    <li><a href="#collaborations">Collaborations</a></li>
-                    <li><a href="#supporters">Supporters</a></li>
-                  </ul>
-                </li>
- -->
-                <li><a href="#team">Team</a></li>
-                <li><a href="#mentors">Mentors</a></li>
-                <li><a href="#collaborations">Collaborations</a></li>
-                <li><a href="#supporters">Supporters</a></li>
-                <li>
-                  <a href="#joinus">
-                    Join Us
-                  </a>
-                </li>
-                <li>
-                  <a href="#donate">
-                    Donate
-                  </a>
-                </li>
-              </ul>
-            </div><!--/.nav -->
+            <div class="left-arrow w-slider-arrow-left">
+              <div class="icon-2 w-icon-slider-left"></div>
+            </div>
+            <div class="right-arrow w-slider-arrow-right">
+              <div class="icon w-icon-slider-right"></div>
+            </div>
+            <div class="slide-nav w-slider-nav w-shadow w-round"></div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="more" class="section grey">
+    <div class="container">
+      <h1 class="mainheading">The Aarohan Story</h1>
+      <div style="padding-top:56.17021276595745%" id="w-node-16c3a3253403-1cfbfd34" class="w-embed-youtubevideo youtube"><iframe src="https://www.youtube-nocookie.com/embed/OrmO9n45iB0?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0" frameborder="0" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+      <div class="body">Aarohan community learning centers act as vehicles of education, learning, innovation and creation for all the members of the community. It not only offers definite scientific, artistic, sporting arrears for the kids but also similar interest oriented, job oriented vocational help for adults. We will be looking at taking up community projects that engage the community and enhance their understanding of their own problems.</div>
+    </div>
+  </div>
+  <div id="about" class="section">
+    <div class="container w-container">
+      <h1 class="mainheading">A one stop learning hub for the community</h1>
+      <div class="w-row">
+        <div class="w-col w-col-4">
+          <div class="column-div"><img src="images/1.svg" alt="">
+            <h1 class="subheading">Education<br>for children</h1>
+            <div class="body">An after school program for children that supplements school teaching to further deepen their concepts and enhance their skills coupled with an added advantage of developing social skills</div>
+          </div>
+        </div>
+        <div class="w-col w-col-4">
+          <div class="column-div"><img src="images/2.svg" alt="">
+            <h1 class="subheading">Skill building<br>for adults</h1>
+            <div class="body">The center also provides relevant skill building courses such as sewing, stitching and embroidery for adults to help them earn sustainable livelihoods</div>
+          </div>
+        </div>
+        <div class="w-col w-col-4">
+          <div class="column-div"><img src="images/3.svg" alt="">
+            <h1 class="subheading">Upliftment<br>for the community</h1>
+            <div class="body">We focus on extracting, building and using local human capital of the community. It also creates an avenue for sharing among different community members</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grey-card">
+      <div class="w-row">
+        <div class="column w-col w-col-6">
+          <h1 class="subheading green">Goal</h1>
+          <div class="body">To create self-sustainable community centers that provides meaningful education to children, impart livelihood skills and generates employment for women to make them independent. Provide quality education to all and mobilize the potential work force in low-income communities.</div>
+        </div>
+        <div class="column w-col w-col-6">
+          <h1 class="subheading green">Vision</h1>
+          <div class="body">Aid the nation building process by creating dynamic, self-sustainable and knowledgeable societies by creating holistic learning hubs for all the members of the community and providing everyone valuable learning opportunities<br></div>
+        </div>
+      </div>
+      <div class="div-block">
+        <h1 class="subheading green">Mission</h1>
+      </div>
+      <ul>
+        <li class="list-item"><span class="blacktext">Provide quality education through after school learning centers that focus on holistic development of those seeking education</span></li>
+        <li class="list-item"><span class="blacktext">Educate students so that they are able to explore both the world and their inner self</span></li>
+        <li class="list-item"><span class="blacktext">Impart necessary skills to youth and women in order to build entrepreneurial attitudes and help them establish their own micro-enterprises</span></li>
+      </ul>
     </div>
     <div class="container">
-      <div class="headline floatfix">
-        <!--<img class="lt" src="images/aarohan_logo_neat.png">-->
-        <h1 class="lt">AAROHAN<small>A Community Learning Center</small></h1>
+      <h1 class="mainheading">The Team</h1>
+      <div class="small-card">
+        <div class="card-left"><img src="images/R.jpg" width="130" alt=""></div>
+        <div class="card-right">
+          <h2 class="card-subheading">Raghav Gajula</h2>
+          <div class="card-description">Co-Founder</div>
+          <div class="body">Raghav graduated from BITS-Pilani in 2011 and completed his 2-year fellowship with Teach for India in 2011. During his TFI fellowship he was working as a Grade 2,3 and 4 teacher at a low-income private school in East Delhi. He collaborated with Self Employed Women&#x27;s Association (SEWA) and a local government skill-building center to impart livelihood skills to women for six months. He believes this is an active parental investment model that will have long-term impact on education of kids. Raghav also volunteers at a free progress school, Mirambika in Hauz Khas, where he discusses science with secondary school children. He likes to read and play cricket in his leisure time.</div>
+        </div>
       </div>
-    </div> 
-    <section id="">
-      <div class="container">
-        <p class="">
-          Aarohan community learning centers act as vehicles of education, learning, innovation and creation for all the members of the community. It not only offers definite scientific, artistic, sporting arrears for the kids but also similar interest oriented, job oriented vocational help for adults. We will be looking at taking up community projects that engage the community and enhance their understanding of their own problems
-        </p>
-        <p>
-          In short, it is a place for the community members to join together to plan, develop and be part of activities that are local, friendly, welcoming, non-judgmental and, most importantly engaging and involve learning for all the parties involved.
-        </p>
-        <p>
-          Aarohan has been founded and managed by alumni of Teach for India and BITS Pilani who are passionate about engaging low income communities in nation building. The team at Aarohan showcases varied strengths in diverse sectors of education, leadership, community engagement and entrepreneurship. These skills are supported by a strong alumni network of their reputed alma mater organizations. Aarohan currently operates in a low income community of Delhi providing after school education to government school kids and livelihood skills training to their mothers.
-        </p>
+      <div class="small-card">
+        <div class="card-left"><img src="images/placeholder.png" width="130" alt=""></div>
+        <div class="card-right">
+          <h2 class="card-subheading">Srikanth Kumar Manne</h2>
+          <div class="card-description">Co-Founder</div>
+          <div class="body">Srikanth graduated from IIT Bombay in the year 2012 and joined Bank of India. Keen to pursue his entrepreneurial aspirations, quit his job and set up an educational LLC that aimed at providing alternate innovative learning platforms for tertiary learners. Social intent in him ensured participation with Aarohan where he continues to actively engage in marketing activities centered around its self sustaining goal.</div>
+        </div>
       </div>
-    </section>
-    <section id="aboutus">
-      <div class="container">
-        <h3>Aarohan: A Community Learning Center</h3>
-        <p>
-          Aarohan is a one stop-learning hub for all the community members. It addresses the issues around the communities in the following manner:
-        </p>
-        <p>
-          <ul class="num-li">
-            <li>
-              <b>After school program for children</b> which supplements school teaching to further deepen their concepts and enhance their skills coupled with an added advantage of developing life skill and social skills which will enable them to use their academic knowledge in a better manner.
-            </li>
-            <li>
-              The center provides relevant <b>skill building courses</b> such as sewing, stitching and embroidery <b>for parents</b> to help them earn sustainable livelihoods.
-            </li>
-            <li>
-              The center focuses on <b>extracting, building and using local human capital</b> of the community. It also creates an avenue for sharing among different community members
-            </li>
-          </ul>
-        </p>
+      <div class="small-card last">
+        <div class="card-left"><img src="images/C.jpg" width="130" alt=""></div>
+        <div class="card-right">
+          <h2 class="card-subheading">Chetan K</h2>
+          <div class="card-description">Co-Founder</div>
+          <div class="body">Chetan graduated from BITS-Pilani in 2009, and recently completed his 2-year fellowship with Teach for India. During his TFI fellowship he was working at Ummeed Aman Ghar, a residential home for street kids, run by Aman Biradari Foundation.</div>
+        </div>
       </div>
-    </section>
-    <section id="gallery">
-      <div class="container">
-      	<div class="row">
-      		<div class="col-md-2"></div>
-      		<div class="col-md-8">
-      			<div class="cr-container" id="cr-container">
-					<div class="cr-content-wrapper" id="cr-content-wrapper">
-						<div class="cr-content-container" id="content-1" style="display:block;">
-							<img src="images/imageplugin/aarohan_1.JPG" class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-2">
-							<img src="images/imageplugin/aarohan_2.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-3">
-							<img src="images/imageplugin/aarohan_3.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-4">
-							<img src="images/imageplugin/aarohan_4.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-5">
-							<img src="images/imageplugin/aarohan_5.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-6">
-							<img src="images/imageplugin/aarohan_6.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-7">
-							<img src="images/imageplugin/aarohan_7.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-8">
-							<img src="images/imageplugin/aarohan_8.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-9">
-							<img src="images/imageplugin/aarohan_9.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-10">
-							<img src="images/imageplugin/aarohan_10.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-11">
-							<img src="images/imageplugin/aarohan_11.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-12">
-							<img src="images/imageplugin/aarohan_12.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-14">
-							<img src="images/imageplugin/aarohan_14.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-15">
-							<img src="images/imageplugin/aarohan_15.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-16">
-							<img src="images/imageplugin/aarohan_16.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-20">
-							<img src="images/imageplugin/aarohan_20.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-22">
-							<img src="images/imageplugin/aarohan_22.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-25">
-							<img src="images/imageplugin/aarohan_25.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-26">
-							<img src="images/imageplugin/aarohan_26.JPG"class="cr-img"/>
-						</div>
-						<div class="cr-content-container" id="content-28">
-							<img src="images/imageplugin/aarohan_28.JPG"class="cr-img"/>
-						</div>
-					</div>
-					<div class="cr-thumbs">
-						<div data-content="content-1" class="cr-selected"><img src="images/imageplugin/thumbs/aarohan_thumb_ 1.JPG"/><h4></h4></div>
-						<div data-content="content-2"><img src="images/imageplugin/thumbs/aarohan_thumb_2.JPG"/><h4></h4></div>
-						<div data-content="content-3"><img src="images/imageplugin/thumbs/aarohan_thumb_3.JPG"/><h4></h4></div>
-						<div data-content="content-4"><img src="images/imageplugin/thumbs/aarohan_thumb_4.JPG"/><h4></h4></div>
-						<div data-content="content-5"><img src="images/imageplugin/thumbs/aarohan_thumb_5.JPG"/><h4></h4></div>
-						<div data-content="content-6"><img src="images/imageplugin/thumbs/aarohan_thumb_6.JPG"/><h4></h4></div>
-						<div data-content="content-7"><img src="images/imageplugin/thumbs/aarohan_thumb_7.JPG"/><h4></h4></div>
-						<div data-content="content-8"><img src="images/imageplugin/thumbs/aarohan_thumb_8.JPG"/><h4></h4></div>
-						<div data-content="content-9"><img src="images/imageplugin/thumbs/aarohan_thumb_9.JPG"/><h4></h4></div>
-						<div data-content="content-10"><img src="images/imageplugin/thumbs/aarohan_thumb_10.JPG"/><h4></h4></div>
-						<div data-content="content-11"><img src="images/imageplugin/thumbs/aarohan_thumb_11.JPG"/><h4></h4></div>
-						<div data-content="content-12"><img src="images/imageplugin/thumbs/aarohan_thumb_12.JPG"/><h4></h4></div>
-						<div data-content="content-14"><img src="images/imageplugin/thumbs/aarohan_thumb_14.JPG"/><h4></h4></div>
-						<div data-content="content-15"><img src="images/imageplugin/thumbs/aarohan_thumb_15.JPG"/><h4></h4></div>
-						<div data-content="content-16"><img src="images/imageplugin/thumbs/aarohan_thumb_16.JPG"/><h4></h4></div>
-						<div data-content="content-20"><img src="images/imageplugin/thumbs/aarohan_thumb_20.JPG"/><h4></h4></div>
-						<div data-content="content-22"><img src="images/imageplugin/thumbs/aarohan_thumb_22.JPG"/><h4></h4></div>
-						<div data-content="content-25"><img src="images/imageplugin/thumbs/aarohan_thumb_25.JPG"/><h4></h4></div>
-						<div data-content="content-26"><img src="images/imageplugin/thumbs/aarohan_thumb_26.JPG"/><h4></h4></div>
-						<div data-content="content-28"><img src="images/imageplugin/thumbs/aarohan_thumb_28.JPG"/><h4></h4></div>
-					</div>
-				</div>
-      		</div>
-      		<div class="col-md-2"></div>
-      	</div>
+    </div>
+  </div>
+  <div id="mentors" class="section grey">
+    <div class="container w-container">
+      <h1 class="mainheading">Our Mentors</h1>
+      <div class="small-card white">
+        <div class="card-left"><img src="images/D.jpg" width="130" alt="" class="image"></div>
+        <div class="card-right">
+          <h2 class="card-subheading">Darshan Bhat</h2>
+          <div class="card-description">Educator and Entrepreneur</div>
+          <div class="body">Darshan is the co-founder and Managing Director of Creatnet Services Ltd and CIAM. He is actively involved with incubating socially relevant enterprises, projects and ideas in energy, education and fashion. He leads Creatnet Education- a network of companies, not-for-profits,and people enabling learning and growth. He designs and leads educational programs and actively coaches entrepreneurs and leaders in schools. He has a natural inclination towards spirituality, practices meditation and is constantly learning</div>
+        </div>
       </div>
-    </section>
-    <section id="organisation">
-      <div class="container">
-        <h3>Organisation</h3>
-        <p class="">
-          <h4>Goal</h4>
-          To create self-sustainable community centers that provides meaningful education to children, imparts livelihood skills and generates employment for women making them independent. We aim to ensure a nation building process by providing quality education to all and mobilizing the potential work force in low-income communities.
-        </p>  
-        <p>
-          <h4>Vision</h4>
-          To create holistic learning hub for all the members of the community and provide everyone a valuable learning opportunity in order to create dynamic, self-sustainable and knowledgeable societies
-        </p>
-        <p>
-          <h4>Mission</h4>
-          <ul class="num-li">
-            <li>
-              To provide quality education through after school learning centers that focus on holistic development of stakeholders seeking education
-            </li>
-            <li>
-              To educate students so that they are able to explore both the world and their inner being
-            </li>
-            <li>
-              Imparting necessary skills to youth and women in order to build entrepreneurial attitudes and help them establish their own micro-enterprises
-            </li>
-          </ul>
-        </p>
+      <div class="small-card white last">
+        <div class="card-left"><img src="images/S.jpg" width="130" alt=""></div>
+        <div class="card-right">
+          <h2 class="card-subheading">Sunita Sain</h2>
+          <div class="card-description">Educationist and Social Worker</div>
+          <div class="body">Teaching has been Sunita’s forte which she has been pursuing in a low income community of Shahdara for the past 20 years. Expert in community mobilization and understanding how low income communities operate, she mentors team Aarohan on community related issues and a wing of skill development. She regularly practices meditation and is an avid reader.</div>
+        </div>
       </div>
-    </section>
-    <section id="team">
-      <div class="container">
-        <h3>Our Team</h3>
-        <p>
-          <h4>Raghav Gajula (Co Founder)</h4>
-          Raghav graduated from BITS-Pilani in 2011, and completed his 2-year fellowship with Teach for India in 2011. During his TFI fellowship he was working as a Grade 2,3 and 4 teacher at a low-income private school in East Delhi. He collaborated with Self Employed Women's Association (SEWA) and a local government skill-building center to impart livelihood skills to women for six months. He believes this is an active parental investment model that will have long-term impact on education of kids. Prior to joining TFI, he was a student at BITS-Pilani and was active part of students’ council, he was also the Chief Student Coordinator of Placement Division. Raghav also volunteers at a free progress school, mirambika in Hauz Khas, where he discusses science with secondary school children. He likes to read and also likes playing Cricket in his leisure time.
-        </p>
-        <p>
-          <h4>Srikanth Kumar Manne (Co Founder)</h4>
-          Srikanth graduated from IIT Bombay in the year 2012 and joined Bank of India. Keen to pursue his entrepreneurial aspirations, quit his job and set up an educational LLC that aimed at providing alternate innovative learning platforms for tertiary learners. Social intent in him ensured participation with Aarohan where he continues to actively engage in marketing activities centered around its self sustaining goal. In IIT Bombay, he was in the core team of Tech Fest 2011, widely regarded as Asia's best technology festivals. While in his free time, one would see Srikanth ideating or networking.
-        </p>
-        <p>
-          <h4>Chetan K (Co-Founder)</h4>
-          Chetan graduated from BITS-Pilani in 2009, and recently completed his 2-year fellowship with Teach for India. During his TFI fellowship he was working at Ummeed Aman Ghar, a residential home for street kids, run by Aman Biradari Foundation. <!-- In 2012 summers, he worked with Member of Parliament, Hamirpur on a project based on education and employment. Prior to joining TFI, he was working with Deloitte Consulting as an Analyst on projects with Fortune 500 clients. He has worked with organizations such as CII, National Social Entrepreneurship Forum (NSEF), Lions Club, and Rotaract Club in the past. Chetan is an avid quizzer and likes playing Squash and Cricket in his leisure time. -->
-        </p>
+    </div>
+  </div>
+  <div id="partners" class="section">
+    <div class="container w-container">
+      <h1 class="mainheading">Our Partners</h1>
+      <div class="small-card">
+        <div class="card-left"><img src="images/Akanksha.png" width="130" alt=""></div>
+        <div class="card-right">
+          <h2 class="card-subheading">Akanksha Foundation</h2>
+          <div class="card-description"><a href="http://www.akanksha.org" class="sublink">www.akanksha.org</a></div>
+          <div class="body">The Akanksha Foundation is a non-profit organization with a mission to provide children from low-income communities with a high-quality education, enabling them to maximize their potential and transform their lives. We are gratified by the support provided by Akanksha by sharing their curriculum during our inception. We are working around it so as to tailor it according to the needs of our kids.</div>
+        </div>
       </div>
-    </section>
-    <section id="mentors">
-      <div class="container">
-        <h3>Mentors</h3>
-        <p>
-          <h4>Darshan Bhat</h4>
-          Darshan is an educator and entrepreneur. He is  the co-founder and Managing Director of Creatnet Services Ltd and CIAM. Darshan is actively involved with  incubating socially relevant enterprises, projects and ideas in energy, education and fashion. He leads Creatnet Education- a network of companies, not-for-profits,and people enabling  learning and growth He designs and leads  educational programs and actively coaches entrepreneurs and leaders in schools. He has a natural inclination towards spirituality, practices meditation and is constantly learning
-        </p>
-        <p>
-          <h4>Smt. Sunita Sain</h4>
-          Sunita Sain is an educationist and a social worker. Teaching has been her forte which she has been pursuing in a low income community of Shahdara for the past 20 years. Expert in community mobilization and understanding how low income communities operate, she mentors team Aarohan on community related issues and a wing of skill development. She regularly practices meditation and is an avid reader.
-        </p>
+      <div class="small-card">
+        <div class="card-left"><img src="images/Sewa.png" width="130" alt=""></div>
+        <div class="card-right">
+          <h2 class="card-subheading">Self Employed Women&#x27;s Association (SEWA)</h2>
+          <div class="card-description"><a href="http://www.sewa.org" class="sublink">www.sewa.org</a></div>
+          <div class="body">SEWA Delhi is a non profit organization committed to organising women workers in the informal economy to protect their livelihoods and work towards their development through skill development and creating market linkages, developing microfinance institutions, linking with social security programmes and promoting skill and education among their daughters and children. SEWA has provided us with curriculum for the 6 month tailoring and embroidery program that we provide as a part of livelihood skill training for female parents of children.</div>
+        </div>
       </div>
-    </section>
-    <section id="collaborations">
-      <div class="container">
-        <h3>Collaborations</h3>
-        <p>
-          <h4>Akanksha</h4>
-          The Akanksha Foundation is a non-profit organization with a mission to provide children from low-income communities with a high-quality education, enabling them to maximize their potential and transform their lives. We are gratified by the support provided by Akanksha by sharing their curriculum during our inception. We are working around it so as to tailor it according to the needs of our kids.
-        </p>
-        <p>
-          <h4>SEWA (Self Employed Women's Association)</h4>
-          SEWA Delhi is a non profit organization committed to organising women workers in the informal economy to protect their livelihoods and work towards their development through skill development and creating market linkages, developing microfinance institutions, linking with social security programmes and promoting skill and education among their daughters and children. SEWA has provided us with curriculum for the 6 month tailoring and embroidery program that we provide as a part of livelihood skill training for female parents of children.
-        </p>
-        <p>
-          <h4>AES (American Embassy School)</h4>
-          The American Embassy School serves students from the United States and other nations. It provides a quality American education that enables students to be inspired learners and responsible global citizens through the collaboration of a dedicated faculty and a supportive community. We are glad to have received considerable support in terms of resources and mentorship from AES. We look forward to positively impact the community we are serving through mentored guidance of AES.
-        </p>
-        <p>
-          <h4>Teach for India</h4>
-          Teach For India, a project of Teach To Lead, is a nationwide movement of outstanding college graduates and young professionals who will commit two-years to teach full-time in under resourced schools and who will become lifelong leaders working from within various sectors towards the pursuit of equity in education. Being a social start up by the alumni of Teach for India, Aarohan does get its share of support from the brand for what the alma mater organization stands for. 
-        </p>
+      <div class="small-card">
+        <div class="card-left"><img src="images/Aes.png" width="130" alt=""></div>
+        <div class="card-right">
+          <h2 class="card-subheading">American Embassy School (AES)</h2>
+          <div class="card-description"><a href="http://www.aes.ac.in" class="sublink">www.aes.ac.in</a></div>
+          <div class="body">The American Embassy School serves students from the United States and other nations. It provides a quality American education that enables students to be inspired learners and responsible global citizens through the collaboration of a dedicated faculty and a supportive community. We are glad to have received considerable support in terms of resources and mentorship from AES. We look forward to positively impact the community we are serving through mentored guidance of AES.</div>
+        </div>
       </div>
-    </section>
-    <section id="supporters">
-      <div class="container">
-        <h3>Supporters</h3>
-        <p>
-          <h4><a href = "http://smileyfaction.org" target="_blank">Smiley faction</a></h4>
-        </p>
-        <div align="center">        
-        <em>Smiley faction is delighted to extend its support to Aarohan, a commendable initiative by our fellow college alumnus Raghav. We had already seen the good work done by him as a TFI member in Shadara. After understanding his vision & mission for Aarohan, we felt he certainly deserves support by all means. Aarohan is a role model initiative which should grow and serve many more people in future. Our heartfelt wishes and support will always be there for Aarohan & Raghav.</em><p></p>
-		<p><strong>- Gauri Shanker, Smiley faction</strong></p></div>
+      <div class="small-card last">
+        <div class="card-left"><img src="images/tfi.png" width="130" alt=""></div>
+        <div class="card-right">
+          <h2 class="card-subheading">Teach For India</h2>
+          <div class="card-description"><a href="http://www.teachforindia.org" class="sublink">www.teachforindia.org</a></div>
+          <div class="body">Teach For India, a project of Teach To Lead, is a nationwide movement of outstanding college graduates and young professionals who will commit two-years to teach full-time in under resourced schools and who will become lifelong leaders working from within various sectors towards the pursuit of equity in education. Being a social start up by the alumni of Teach for India, Aarohan does get its share of support from the brand for what the alma mater organization stands for.</div>
+        </div>
       </div>
-    </section>
-    <section id="joinus">
-      <div class="container">
-        <h3>Join Us</h3>
-        <p>
-          Are you passionate about education and like to be a change-maker, Aarohan is certainly a place for you.
-        </p>
-        <p>
-          We have several opportunities including internships and volunteering for you to be part of our team sharing our mission!
-        </p>
-        <p>
-          We are looking for passionate individuals with skills, abilities and experience that will be of value to our team.
-          <br>
-          We welcome full-time professionals, part-time individuals, interns, freelancers and volunteers
-          <br>
-          Interested change-makers, send us your resume or just write to us:
-          <a href="mailto:info@aarohaninitiative.org"><b>info@aarohaninitiative.org</b></a>
-        </p>
-        <p>
-          If you have any questions, feedback or just want to chat with us, please get in touch with us. 
-        </p>
+    </div>
+  </div>
+  <div id="supporters" class="section grey">
+    <div class="container w-container">
+      <h1 class="mainheading">Our Supporters</h1>
+      <div class="small-card white">
+        <div class="card-left"><img src="images/Srijan.jpg" width="130" alt="" class="image"></div>
+        <div class="card-right">
+          <h2 class="card-subheading">Srijan Foundation</h2>
+          <div class="card-description"><a href="http://www.srijanfn.org" class="sublink">www.srijanfn.org</a></div>
+          <div class="body">Srijan Foundation Trust started out at the turn of this millenium with running a few non-formal after-schools, two in Odisha at Kumarpara and Nadakhand villages in Puri district, and one in Kishangarh, New Delhi.. Aaorhan is extremely grateful for the financial support Srijan foundation has been providing in running its operations.</div>
+        </div>
       </div>
-    </section>
-    <section id="donate">
-      <div class="container">
-        <h3>Donate</h3>
-        <p>
-          <b>Aarohan</b> requires your support not just financially but more importantly with resources. There may be many books and teaching material stacked in your homes that you might just end up dusting often. We are pretty sure of putting them into effective use with needy children.
-        </p>
-        <p>
-          You yourselves can of course donate. We also expect you to honk a horn at your friends place who would be interested in donating. Yeah, we know its so that simple.
-        </p>
-        <p>
-          <b>For all those white collar job holders slash philanthropists</b><small>(miniature to mega)</small>, <b>we need your bucks</b> that can put an end to our financial woes. Internet hasn't been more useful anytime than today that powers you with instant donation. You can either order stuff and donate to us using pre worked out wish-list or can take up the long known conventional way of <b>donating via Cheque / Demand Draft / Direct Bank transfer</b>.
-        </p>
+      <div class="small-card white last">
+        <div class="card-left"><img src="images/Rectangle-Copy-4.png" width="130" alt=""></div>
+        <div class="card-right">
+          <h2 class="card-subheading">Smiley Faction</h2>
+          <div class="card-description"><a href="http://www.smileyfaction.org" target="_blank" class="sublink">www.smileyfaction.org</a></div>
+          <div class="body">“Smiley faction is delighted to extend its support to Aarohan, a commendable initiative by our fellow college alumnus Raghav. We had already seen the good work done by him as a TFI member in Shadara. After understanding his vision &amp; mission for Aarohan, we felt he certainly deserves support by all means. Aarohan is a role model initiative which should grow and serve many more people in future. Our heartfelt wishes and support will always be there for Aarohan &amp; Raghav.”</div>
+          <div class="card-bottom-description"><strong>-Gauri Shanker, Smiley faction</strong></div>
+        </div>
       </div>
-      <div class="acc_details_block">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7" style="padding-top: 10px;color: #919191;">
-              <p>
-                Cheques / Demand Draft should be in the name of "<b>Aarohan Community Center</b>" payable at <b>Hyderabad</b>.
-              </p>
-              <p>
-              Address for mailing Cheques / Demand Draft:
-              <b>1/2211, Near Shanthi Opticals, Ramnagar, Shahdara, Delhi - 110032</b>
-              </p>
-              <p>
-                Aarohan is a registered trust. We are awaiting certificate for Tax Exemption under 80G of the Income Tax Act 1961. Thank you for supporting us.
-                For any queries, please send an email to <a href="mailto:info@aarohaninitiative.org">info@aarohaninitiative.org</a>
-              </p>
+    </div>
+  </div>
+  <div id="donate" class="section">
+    <div class="container w-container">
+      <h1 class="mainheading">Donate to Aarohan</h1>
+      <div class="body">Aarohan requires your support. You can help not just financially but more importantly with resources. There may be many books and teaching material stacked in your homes that you might not need anymore. We will put them to effective use for those who need them.<br>‍<br>You could donate yourself of course. We’d love it if you could honk a horn at your friends who might be interested in donating.<br>‍<br>The internet hasn&#x27;t been more useful anytime than today. You can either order stuff and donate to us using pre worked out wish-list or can take up the long known conventional way of donating via Cheque / Demand Draft / Direct Bank transfer.</div>
+      <div class="w-row">
+        <div class="w-col w-col-7">
+          <div class="small-card">
+            <div class="card-center">
+              <div class="body">Cheques / Demand Draft should be in the name of <strong>&quot;Aarohan Community Center&quot;</strong> payable at <strong>Hyderabad</strong>.<br>‍<br>Address for mailing Cheques / Demand Draft: <br>1/2211, Near Shanthi Opticals,<br>Ramnagar, Shahdara,<br>Delhi - 110032<br><br>Aarohan is a registered trust. We are awaiting certificate for Tax Exemption under 80G of the Income Tax Act 1961. Thank you for supporting us. For any queries, please send an email to <strong class="greenemail">info@aarohaninitiative.org</strong></div>
             </div>
-            <div class="col-md-5">
-              <div class="footer-banner">
-                <h3 class="footer-title">Bank Details</h3>
-                <ul>
-                  <li>Name: <b>Aarohan</b></li>
-                  <li>Bank: <b>Bank of India</b></li>
-                  <li>Bank Account Number: <b>864210310000283</b></li>
-                  <li>Branch Code: <b>8642</b></li>
-                  <li>Branch Name: <b>Saroornagar, Hyderabad</b></li>
-                  <li>IFSC Code: <b>BKID0008642</b></li>
-                </ul>
+          </div>
+        </div>
+        <div class="w-col w-col-5">
+          <div>
+            <div class="small-card greenbg">
+              <div class="card-center">
+                <h1 class="mainheading whitetext bank">Bank Details</h1>
+              </div>
+              <div class="w-row">
+                <div class="w-col w-col-6">
+                  <div class="bankdiv">
+                    <div class="bank-detail">Account Name</div>
+                    <div class="bank-item">Aarohan</div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="bankdiv">
+                    <div class="bank-detail">Bank</div>
+                    <div class="bank-item">Aarohan</div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-row">
+                <div class="w-col w-col-6">
+                  <div class="bankdiv">
+                    <div class="bank-detail">Branch Code</div>
+                    <div class="bank-item">8642</div>
+                  </div>
+                </div>
+                <div class="w-col w-col-6">
+                  <div class="bankdiv">
+                    <div class="bank-detail">IFSC Code</div>
+                    <div class="bank-item">BKID0008642</div>
+                  </div>
+                </div>
+              </div>
+              <div class="bankdiv">
+                <div class="bank-detail">Bank Account Number</div>
+                <div class="bank-item">864210310000283</div>
+              </div>
+              <div class="bankdiv">
+                <div class="bank-detail">Branch Name</div>
+                <div class="bank-item">Saroornagar, Hyderabad</div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <footer>
-<!-- 
-      <div class="container">
-        <h3 class="footer-title">Testimonials</h3>
-        <div class="row">
-          
-        </div>
-      </div>
- -->
-    </footer>
-    <!-- Load JS here for greater good =============================-->
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="js/jquery.ui.touch-punch.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/bootstrap-switch.js"></script>
-    <script src="js/flatui-checkbox.js"></script>
-    <script src="js/flatui-radio.js"></script>
-    <script src="js/jquery.tagsinput.js"></script>
-    <script src="js/jquery.placeholder.js"></script>
-    <script src="js/jquery.stacktable.js"></script>
-    <script src="js/scrollspy.js"></script>
-    <!-- take from http://tympanus.net/codrops/2011/07/29/content-rotator/-->
-    <script type="text/javascript" src="js/imagesplugin/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="js/imagesplugin/jquery.mousewheel.js"></script>
-		<script type="text/javascript" src="js/imagesplugin/jquery.jscrollpane.min.js"></script>
-		<script type="text/javascript" src="js/imagesplugin/jquery.crotator.js"></script>
-		<script type="text/javascript">
-			$(window).load(function(){
-				$('#cr-container').crotator({autoplay : true});
-				//$('body').scrollspy({ target: '#navbarExample' });
-			});
-		</script>
-  </body>
+    </div>
+  </div>
+  <div id="join" class="section grey">
+    <div class="container w-container">
+      <h1 class="mainheading">Join Us</h1>
+      <div class="body">Are you passionate about education and like to be a change-maker? Aarohan is certainly the place for you. We have several opportunities including internships and volunteering for you to be part of our team if you share our mission!<br><br>We are looking for passionate individuals with skills, abilities and experience that will be of value to our team. We welcome full-time professionals, part-time individuals, interns, freelancers and volunteers Interested change-makers, send us your resume or just write to us: <strong class="greenemail">info@aarohaninitiative.org</strong><br><br>If you have any questions, feedback or just want to chat with us, please feel free to get in touch with us.</div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footertext">© 2019 Aarohan. All rights reserved.</div>
+  </div>
+  <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
 </html>
