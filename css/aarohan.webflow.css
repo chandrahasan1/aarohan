@@ -15,7 +15,7 @@
 }
 
 .body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color: #000;
   font-size: 16px;
   line-height: 24px;
@@ -35,13 +35,13 @@
   -ms-flex: 0 auto;
   flex: 0 auto;
   border-bottom: 5px solid #1abc9c;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-size: 36px;
   line-height: 40px;
 }
 
 .logo:hover {
-  border-bottom-color: hsla(168.14814814814815, 75.70%, 47.81%, 1.00);
+  border-bottom-color: #1ed6b2;
 }
 
 .logounderline {
@@ -148,7 +148,7 @@
 .hero-heading {
   margin-top: 0px;
   margin-bottom: 10px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   color: #fff;
   font-size: 36px;
   line-height: 48px;
@@ -212,7 +212,7 @@
 .mainheading {
   margin-top: 0px;
   margin-bottom: 30px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
@@ -237,7 +237,7 @@
 }
 
 .subheading {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-size: 24px;
   line-height: 32px;
   font-weight: 400;
@@ -323,7 +323,7 @@
 .card-subheading {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-size: 24px;
   line-height: 32px;
   font-weight: 400;
@@ -364,7 +364,7 @@
   align-items: center;
   border-style: solid;
   border-width: 1px;
-  border-color: #454545;
+  border-color: #464646;
   background-color: #464646;
 }
 
@@ -467,6 +467,14 @@
 }
 
 .sublink:hover {
+  color: #1abc9c;
+}
+
+.link {
+  color: #fff;
+}
+
+.link:hover {
   color: #1abc9c;
 }
 
@@ -637,10 +645,10 @@
     flex-wrap: wrap;
   }
   .small-card.white {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     text-align: center;
   }
   .card-left {
@@ -648,6 +656,7 @@
   }
   .card-right {
     margin-left: 0px;
+    text-align: left;
   }
   .image {
     max-width: 80%;
